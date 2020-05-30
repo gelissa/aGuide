@@ -189,6 +189,38 @@ section.about {
   .states {
     font-size: 220%;
   }
+
+  .donation-links {
+    display: -ms-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+  }
+
+  @media only screen and (max-width : 600px) {
+    .donation-links {
+      display: -ms-flexbox;
+    display: contents;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+  }
+
+  @media only screen and (max-width : 768px) {
+    .donation-links {
+      display: -ms-flexbox;
+    display: contents;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+  }
   
   /*
    * Footer
@@ -200,5 +232,13 @@ section.about {
   .inner {
     margin-top: 15px;
     font-size: smaller;
+}
+
+footer {
+  position: relative; 
+  left: 0 ; 
+  right: 0; 
+  bottom: 0; 
+  /* height:[footer-height]  */
 }
   
