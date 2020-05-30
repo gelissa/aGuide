@@ -175,6 +175,16 @@ section.about {
     display: block;
     }
   }
+
+  /* 
+  * Resources
+  */
+
+  .resources {
+    display: grid;
+    justify-content: flex-start;
+    margin-top: 40px;
+  }
   
   /*
    * Footer
