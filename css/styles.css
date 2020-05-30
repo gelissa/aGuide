@@ -6,3 +6,24 @@
 .cover-container {
     max-width: 42em;
 }
+
+.masthead-brand {
+    margin-bottom: 0;
+}
+
+.masthead {
+    margin-bottom: 2rem;
+}
+
+.mb-auto, .my-auto {
+    margin-bottom: auto!important;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+@media (min-width: 48em)
+.masthead-brand {
+    float: left;
+}
