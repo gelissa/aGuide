@@ -144,8 +144,13 @@ section.about {
 * Tweets
 */
 
-.tweets {
+/* .tweets {
   display: inline-flex;
+} */
+
+.tweets {
+  display: inherit;
+  width: 100%;
 }
 
 .twitter-tweet, .twitter-tweet-rendered {
@@ -173,6 +178,13 @@ section.about {
 @media only screen and (max-width : 600px) {
   .tweets {
     display: block;
+    }
+  }
+@media only screen and (max-width : 768px) {
+  .tweets {
+    display: block;
+    width: 100%;
+    padding-left: 150px;
     }
   }
 
