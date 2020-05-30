@@ -22,6 +22,11 @@ body {
 .cover-container {
     max-width: 42em;
   }
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 15px;
+    margin-bottom: .5rem;
+}
   
 
 /*
@@ -32,8 +37,8 @@ body {
   }
   
   .masthead-brand {
-    margin-bottom: 0;
-  }
+    margin-bottom: 20px;
+}
   
   .nav-masthead .nav-link {
     padding: .25rem 0;
@@ -68,18 +73,6 @@ body {
 
 
 /*
- * Jumbotron
- */
-
- /* .jumbotron, .jumbotron-fluid {
-    background: url(../assets/IMG_5365.JPG) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
- } */
-
-/*
  * Cover
  */
  .cover {
@@ -93,7 +86,7 @@ body {
   .card {
     position: relative;
     display: -ms-flexbox;
-    display: table-cell;
+    display: block;
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 2px;
@@ -102,6 +95,7 @@ body {
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+    padding: 10px;
 }
   
   
@@ -111,4 +105,8 @@ body {
   .mastfoot {
     color: rgba(255, 255, 255, .5);
   }
+
+  .inner {
+    margin-top: 15px;
+}
   
