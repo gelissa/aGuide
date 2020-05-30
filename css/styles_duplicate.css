@@ -79,7 +79,23 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   margin-top: 15px;
+  justify-content: center;
 }
+
+section.about {
+  text-align: initial;
+}
+
+
+@media only screen and (max-width : 600px) {
+.names {
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  }
+}
+
+
+
 
 /*
  * Cover
