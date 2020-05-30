@@ -117,9 +117,18 @@ section.about {
 /*
  * Cover
  */
+
  .cover {
     padding: 0 1.5rem;
   }
+
+  @media only screen and (max-width : 399px){
+    .cover {
+      padding: 0 0;
+    }
+  }
+
+
   .cover .btn-lg {
     padding: .75rem 1.25rem;
     font-weight: 700;
