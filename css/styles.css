@@ -185,6 +185,10 @@ section.about {
     justify-content: flex-start;
     margin-top: 40px;
   }
+
+  .states {
+    font-size: 220%;
+  }
   
   /*
    * Footer
