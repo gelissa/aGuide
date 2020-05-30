@@ -89,6 +89,20 @@ body {
     padding: .75rem 1.25rem;
     font-weight: 700;
   }
+
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: table-cell;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 2px;
+    word-wrap: break-word;
+    background-color: #5d5d5d;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
   
   
   /*
