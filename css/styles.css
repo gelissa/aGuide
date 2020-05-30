@@ -6,21 +6,21 @@
 
 html,
 body {
-  height: 100%;
-  background-color: #333;
+  /* height: 100%; */
+  background-color: #fff;
   
 }
 
 body {
     display: -ms-flexbox;
     display: flex;
-    color: #fff;
-    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    color: rgb(0, 0, 0);
+    /* text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5); */
 }
 
 .cover-container {
-    max-width: 42em;
+    max-width: 80em;
   }
 
 h1, h2, h3, h4, h5, h6 {
@@ -40,13 +40,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
   
-  .nav-masthead .nav-link {
-    padding: .25rem 0;
-    font-weight: 700;
-    color: rgba(255, 255, 255, .5);
-    background-color: transparent;
-    border-bottom: .25rem solid transparent;
-  }
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
@@ -58,18 +58,60 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
+    color: #000;
+    border-bottom-color: #000;
   }
   
-  @media (min-width: 48em) {
-    /* .masthead-brand {
+  /* @media (min-width: 48em) {
+    .masthead-brand {
       float: left;
-    } */
+    }
     .nav-masthead {
       float: right;
     }
+  } */
+
+/* 
+* Names
+*/
+
+.names {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+section.about {
+  text-align: initial;
+}
+
+
+@media only screen and (max-width : 600px) {
+.names {
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
   }
+}
+
+/* 
+* Bios
+*/
+
+/* .bio {
+  box-shadow: 14px 16px 39px -15px rgba(0, 0, 0, 0.66);
+}
+
+.bio:hover {
+  cursor: pointer;
+	-webkit-transform: scale(1.05, 1.05);
+	transform: scale(1.05, 1.05);
+	-webkit-transition: all 0.2s ease-in-out;
+} */
+
+.angry, .intro_resources {
+  font-size: 1.25em;
+}
 
 
 /*
@@ -98,6 +140,26 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
 }
   
+/* 
+* Tweets
+*/
+
+.tweets {
+  display: inline-flex;
+}
+
+.twitter-tweet, .twitter-tweet-rendered {
+  position: static;
+  visibility: visible;
+  display: block;
+  transform: rotate(0deg);
+  max-width: 100%;
+  width: 500px;
+  min-width: 220px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
   
   /*
    * Footer
@@ -108,5 +170,6 @@ h1, h2, h3, h4, h5, h6 {
 
   .inner {
     margin-top: 15px;
+    font-size: smaller;
 }
   
