@@ -182,7 +182,7 @@ section.about {
 
   .resources {
     display: grid;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     margin-top: 40px;
   }
 
