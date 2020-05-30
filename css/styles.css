@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  
 }
 
 body {
@@ -57,14 +58,26 @@ body {
   }
   
   @media (min-width: 48em) {
-    .masthead-brand {
+    /* .masthead-brand {
       float: left;
-    }
+    } */
     .nav-masthead {
       float: right;
     }
   }
 
+
+/*
+ * Jumbotron
+ */
+
+ /* .jumbotron, .jumbotron-fluid {
+    background: url(../assets/IMG_5365.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ } */
 
 /*
  * Cover
