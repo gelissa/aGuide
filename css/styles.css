@@ -160,6 +160,21 @@ section.about {
   margin-bottom: 10px;
   margin-right: 20px;
 }
+
+.row {
+  display: -ms-flexbox;
+  display: contents;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media only screen and (max-width : 600px) {
+  .tweets {
+    display: block;
+    }
+  }
   
   /*
    * Footer
