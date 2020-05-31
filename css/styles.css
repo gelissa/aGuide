@@ -289,6 +289,19 @@ section.about {
     max-height: 100%;
 }
 } 
+
+
+.leet > embed {
+  width: 30%;
+  height: 360px;
+}
+
+@media only screen and (max-width : 400px){
+  .leet > embed {
+    width: 100%;
+    max-height: 100%;
+}
+} 
   
   /*
    * Footer
