@@ -203,6 +203,11 @@ section.about {
   * Resources
   */
 
+  /* .button-links {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+  } */
+
   .resources {
     display: grid;
     /* justify-content: flex-start; */
