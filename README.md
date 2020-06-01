@@ -7,5 +7,5 @@ https://gelissa.github.io/aGuide/
 
 ## Thanks also to:
 
-![MediaInfo.js](https://mediainfo.js.org/#mediainfojs)
-![Simple MetaData Extractor](https://codepen.io/buzzone/pen/eYNjJrx)
+[MediaInfo.js](https://mediainfo.js.org/#mediainfojs)
+[Simple MetaData Extractor](https://codepen.io/buzzone/pen/eYNjJrx)
