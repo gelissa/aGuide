@@ -124,7 +124,7 @@ section.about {
 
   @media only screen and (max-width : 399px){
     .cover {
-      padding: 0 0;
+      padding: 0 1px;
     }
   }
 
