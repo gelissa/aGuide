@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ANTI-SURRVEILLANCE METADATA SCRUBBER</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/favicon.JPG" type="image/x-icon">
+    <style>
+
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 80%;
+            padding: 8px;
+            position: absolute;
+            width: 50%;
+        }
+
+        #fileinput {
+            padding-bottom: 8px;
+        }
+
+        #output {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="text-center" data-gr-c-s-loaded="true" cz-shortcut-listen="true">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main role="main" class="inner cover">
+        <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="resources.html">Resources</a>
+            <a class="nav-link" href="donations.html">Donations</a>
+            <a class="nav-link" href="guides.html">Guides</a>
+            <a class="nav-link active" href="video_uploader.html">MetaData Scrubber</a>
+        </nav>
+        <h2 class="cover-heading">"No Justice, No Peace"</h2>
+    </main>
+    <br>
+    <section class="scrubber">
+    <div id="wrapper">
+        <input type="file" id="fileinput" name="fileinput" />
+        <textarea id="output"></textarea>
+        
+    </div>
+</section>
+</div>
+    <script src="https://unpkg.com/mediainfo.js/dist/mediainfo.min.js"></script>
+    <script src="script.js/scrubber.js"></script>
+
+</body>
+
+</html>
