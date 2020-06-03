@@ -1,0 +1,52 @@
+[
+    {
+        "city":"Minneapolis, MN",
+        "number":"612-444-2654"
+    
+    },
+    {
+        "city":"Los Angeles, Ca",
+        "number": "310-313-3700"
+        
+    },
+    {
+        "city":"San Antonio, TX",
+        "number": "210- 227-1515"
+    },
+    {
+        "city":"Richmond,VA",
+        "number": "804-291-8520"
+    },
+    {
+        "city":"New York, New York",
+        "number": "783-346-6322"
+    },
+    {
+        "city":"Atlanta, GA",
+        "number": "404-689-1519"
+    },
+    {
+        "city":"Philadelphia, PA",
+        "number": "484-758-0388"
+    },
+    {
+        "city":"Louisville",
+        "number": "484-758-0388"
+    },
+    {
+        "city":"Raleigh NC",
+        "number": "919-769-2087"
+    },
+    {
+        "city":"Seattle, WA",
+        "number": "413-274-2016"
+    },
+    {
+        "city":"Orlando, Fl",
+        "number": "321-663-6536"
+    },
+    {
+        "city":"Chicago, IL",
+        "number": "773-309-1198"
+    }
+]
