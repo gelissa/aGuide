@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+.resources {
+    display: grid;
+    /* justify-content: flex-start; */
+    margin-top: 40px;
+  }
+
+
+  .map > iframe {
+    width: 640px;
+    height: 480px;
+  }
+
+  @media only screen and (max-width : 600px){
+  .map > iframe {
+    width: 100%;
+    height: 480px;
+}
+}
+
+.donation-links {
+  display: -ms-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  
+}
+
+@media only screen and (max-width : 600px) {
+  .donation-links {
+    display: -ms-flexbox;
+  display: contents;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .donation-links {
+    display: -ms-flexbox;
+  display: contents;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+}
+
+
+.guideSection{
+  height: 80vh;
+  margin: 20px;
+}
+
+.guides > embed {
+  width: 80%; 
+  height: 100%;
+  box-shadow: 2px 2px 12px 2px #333;
+}
+
+@media only screen and (max-width : 400px){
+  .guides > embed {
+    width: auto;
+    max-height: 100%;
+}
+} 
+
+
+.leet > embed {
+  width: 90%;
+  height: 360px;
+}
+
+@media only screen and (max-width : 400px){
+  .leet > embed {
+    width: 100%;
+    max-height: 100%;
+}
+} 
+  
